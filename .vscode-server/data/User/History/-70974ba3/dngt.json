@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "security.workspace.trust.untrustedFiles": "open",
+    "github.copilot.editor.enableAutoCompletions": true,
+    "chatgpt.lang": "en",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.statusBar.visible": false
+}

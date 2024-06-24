@@ -1,0 +1,25 @@
+2024-06-24 18:15:05.820 [info] 
+
+
+
+
+2024-06-24 18:15:05.820 [info] Extension host agent started.
+2024-06-24 18:15:05.833 [info] Started initializing default profile extensions in extensions installation folder. file:///home/atonl/.vscode-server/extensions
+2024-06-24 18:15:05.847 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/atonl/.vscode-server/extensions
+2024-06-24 18:15:05.993 [info] [127.0.0.1][0a836b9d][ManagementConnection] New connection established.
+2024-06-24 18:15:06.312 [info] [127.0.0.1][0bbc6eca][ExtensionHostConnection] New connection established.
+2024-06-24 18:15:06.338 [info] [127.0.0.1][0bbc6eca][ExtensionHostConnection] <686> Launched Extension Host Process.
+2024-06-24 18:18:43.649 [info] Getting Manifest... ritwickdey.liveserver
+2024-06-24 18:18:43.819 [info] Installing extension: ritwickdey.liveserver file:///home/atonl/.vscode-server/extensions/extensions.json
+2024-06-24 18:18:46.473 [info] Extension signature verification result for ritwickdey.liveserver: Success. Executed: true. Duration: 1434ms.
+2024-06-24 18:18:48.884 [info] Extracted extension to file:///home/atonl/.vscode-server/extensions/ritwickdey.liveserver-5.7.9: ritwickdey.liveserver
+2024-06-24 18:18:48.896 [info] Renamed to /home/atonl/.vscode-server/extensions/ritwickdey.liveserver-5.7.9
+2024-06-24 18:18:48.930 [info] Extension installed successfully: ritwickdey.liveserver file:///home/atonl/.vscode-server/extensions/extensions.json
+2024-06-24 18:19:57.145 [info] Getting Manifest... ms-vscode.live-server
+2024-06-24 18:19:57.258 [info] Installing extension: ms-vscode.live-server file:///home/atonl/.vscode-server/extensions/extensions.json
+2024-06-24 18:19:58.725 [info] Extension signature verification result for ms-vscode.live-server: Success. Executed: true. Duration: 842ms.
+2024-06-24 18:19:58.758 [info] Extracted extension to file:///home/atonl/.vscode-server/extensions/ms-vscode.live-server-0.4.13: ms-vscode.live-server
+2024-06-24 18:19:58.760 [info] Renamed to /home/atonl/.vscode-server/extensions/ms-vscode.live-server-0.4.13
+2024-06-24 18:19:58.793 [info] Extension installed successfully: ms-vscode.live-server file:///home/atonl/.vscode-server/extensions/extensions.json
+2024-06-24 18:23:13.454 [info] [127.0.0.1][0a836b9d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-06-24 18:23:13.511 [info] [127.0.0.1][0bbc6eca][ExtensionHostConnection] <686> Extension Host Process exited with code: 0, signal: null.

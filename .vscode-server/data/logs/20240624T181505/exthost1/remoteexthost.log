@@ -1,0 +1,68 @@
+2024-06-24 18:15:06.813 [info] Extension host with pid 686 started
+2024-06-24 18:15:06.832 [info] Lock '/home/atonl/.vscode-server/data/User/workspaceStorage/cd73183a265a055a1fe38aac030f3bcc/vscode.lock': Lock acquired.
+2024-06-24 18:15:07.049 [info] Eager extensions activated
+2024-06-24 18:15:08.864 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-24 18:15:08.866 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-06-24 18:15:08.866 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-24 18:15:08.928 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-06-24 18:15:08.929 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-06-24 18:15:13.544 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-06-24 18:15:13.544 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-24 18:18:48.988 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-06-24 18:20:11.972 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-24 18:20:11.973 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-24 18:21:30.643 [info] ExtensionService#_doActivateExtension ms-vscode.live-server, startup: false, activationEvent: 'onCommand:livePreview.start.preview.atFile'
+2024-06-24 18:21:32.299 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-06-24 18:23:13.450 [info] Extension host terminating: received terminate message from renderer
+2024-06-24 18:23:13.450 [info] Lock '/home/atonl/.vscode-server/data/User/workspaceStorage/cd73183a265a055a1fe38aac030f3bcc/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-06-24 18:23:13.497 [error] Canceled: Canceled
+	at new A (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:145:50615)
+	at E.U (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:152:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:152:3091)
+	at h.g (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:155:199935)
+	at h.executeCommand (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at I.registerCommand.description (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:155:198697)
+	at h (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:155:200474)
+	at h.g (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:155:199466)
+	at h.executeCommand (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at Object.executeCommand (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:165:22742)
+	at n.value (/home/atonl/.vscode-server/extensions/ms-vscode.live-server-0.4.13/out/extension.js:1:76820)
+	at l.y (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at f.closeServer (/home/atonl/.vscode-server/extensions/ms-vscode.live-server-0.4.13/out/extension.js:1:86708)
+	at f.dispose (/home/atonl/.vscode-server/extensions/ms-vscode.live-server-0.4.13/out/extension.js:1:88998)
+	at /home/atonl/.vscode-server/extensions/ms-vscode.live-server-0.4.13/out/extension.js:1:71717
+	at Map.forEach (<anonymous>)
+	at b.closeAllServers (/home/atonl/.vscode-server/extensions/ms-vscode.live-server-0.4.13/out/extension.js:1:71702)
+	at b.dispose (/home/atonl/.vscode-server/extensions/ms-vscode.live-server-0.4.13/out/extension.js:1:71745)
+	at t.deactivate (/home/atonl/.vscode-server/extensions/ms-vscode.live-server-0.4.13/out/extension.js:1:64717)
+	at u.eb (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:161:9796)
+	at /home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:161:7867
+	at Array.map (<anonymous>)
+	at u.$ (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:161:7854)
+	at u.terminate (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:161:8127)
+	at f.terminate (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:165:1513)
+	at t (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:178:10459)
+	at n.value (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:178:8427)
+	at l.y (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at s.fire (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:107:14502)
+	at h.z (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:107:17638)
+	at n.value (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:107:16019)
+	at l.y (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at u.acceptChunk (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:107:12248)
+	at n.value (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:107:11518)
+	at l.y (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at n.z (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:175:20497)
+	at n.acceptFrame (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:175:20303)
+	at g.n (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:175:18748)
+	at /home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:175:15675
+	at Socket.w (/home/atonl/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/workbench/api/node/extensionHostProcess.js:175:13305)
+	at Socket.emit (node:events:518:28)
+	at addChunk (node:internal/streams/readable:559:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+	at Readable.push (node:internal/streams/readable:390:5)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-06-24 18:23:13.501 [info] Extension host with pid 686 exiting with code 0
